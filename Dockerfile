@@ -6,4 +6,4 @@ RUN apk update && apk add \
 	bash \
 	openssl
 
-RUN openssl version
+WORKDIR /home
