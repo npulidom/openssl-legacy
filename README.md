@@ -23,4 +23,7 @@ openssl req -new -key file.key -out file.csr
 
 # cert
 openssl x509 -req -days 2920 -in file.csr -signkey file.key -out file.crt
+
+# copy key and certs
+cat file.key file.csr file.crt
 ```
