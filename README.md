@@ -1,7 +1,7 @@
 OpenSSL
 =======
 
-OpenSSL legacy version running on Alpine Linux.
+OpenSSL legacy version running on Alpine Linux. Uncompressed size: 13 MB.
 
 **OpenSSL** `v1.0.2t`
 
