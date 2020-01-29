@@ -10,9 +10,14 @@ OpenSSL legacy version running on Alpine Linux.
 
 Run as deamon
 ```bash
-docker run -d npulidom/openssl-legacy /bin/sh -c "while true; do ping 8.8.8.8; done"
+docker run --name openssl -d npulidom/openssl-legacy /bin/sh -c "while true; do ping 8.8.8.8; done"
 ```
 
+Run bash shell in container
+```bash
+docker exec -it openssl /bin/bash
+
+```
 Generate certificate
 ```bash
 # key
