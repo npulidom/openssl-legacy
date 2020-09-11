@@ -16,7 +16,6 @@ docker run --name openssl -d npulidom/openssl-legacy /bin/sh -c "while true; do 
 Run bash shell in container
 ```bash
 docker exec -it openssl /bin/bash
-
 ```
 Generate certificate
 ```bash
